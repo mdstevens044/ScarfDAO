@@ -56,7 +56,7 @@ function Team() {
                   </p>
                 </header>
                 <p className="p-2">
-                  Experienced Collab Manager & Moderator with connections in +43 DAOs and projects! <br></br><br></br>
+                  Founder @planetofdeapes | co fndr @scarfdao | jpeg collector | horror fiend | Old account deleted at 1 billion 😦
                 </p>
               </article>
             </div>
@@ -81,8 +81,7 @@ function Team() {
                   </p>
                 </header>
                 <p className="p-2">
-                  1- kid makin money <br></br>
-                  2- Experienced Collab Manager & Moderator with connections in +43 DAOs and projects!
+                  Experienced Collab Manager & Moderator with connections in +43 DAOs and projects! <br></br><br></br>
                 </p>
               </article>
             </div>

@@ -10,16 +10,16 @@ function Hero() {
             <strong>ScarfDAO</strong>
           </h1>
           <p className="text-black-500 mt-4 mb-6">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla faucibus magna a efficitur congue. Aenean facilisis ligula at faucibus venenatis.
+            ScarfDAO offers many services to help your project succeed.
           </p>
         </div>
         <div className="flex w-full">
           <Image
             src="/assets/Illustration1.png"
-            alt="VPN Illustrasi"
+            alt="ScarfDAO"
             quality={100}
-            width={612}
-            height={383}
+            width={400}
+            height={350}
             layout="responsive"
           />
         </div>

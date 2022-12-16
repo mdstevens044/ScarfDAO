@@ -18,7 +18,6 @@ function Team() {
                   quality={100}
                   width={612}
                   height={383}
-                  layout="responsive"
                 />
                 <header className="leading-tight p-2 md:p-4">
                   <h1 className="text-lg">
@@ -43,7 +42,6 @@ function Team() {
                   quality={100}
                   width={612}
                   height={383}
-                  layout="responsive"
                 />
                 <header className="leading-tight p-2 md:p-4">
                   <h1 className="text-lg">
@@ -68,7 +66,6 @@ function Team() {
                   quality={100}
                   width={612}
                   height={383}
-                  layout="responsive"
                 />
                 <header className="leading-tight p-2 md:p-4">
                   <h1 className="text-lg">
@@ -93,7 +90,6 @@ function Team() {
                   quality={100}
                   width={612}
                   height={383}
-                  layout="responsive"
                 />
                 <header className="leading-tight p-2 md:p-4">
                   <h1 className="text-lg">

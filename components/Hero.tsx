@@ -20,7 +20,7 @@ function Hero() {
             quality={100}
             width={400}
             height={350}
-            layout="responsive"
+            priority={true}
           />
         </div>
       </div>

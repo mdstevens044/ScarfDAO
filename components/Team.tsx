@@ -4,14 +4,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Team() {
   return (
-    <div className="bg-current from-white-300 to-white-500 w-full py-14" id="team">
-      <div className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
-        <div className="flex flex-col w-full">
+    <div className="bg-current from-white-300 to-white-500 w-screen py-14" id="team">
+      <div className="px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-fit text-center justify-center">
+        <div className="flex flex-col w-screen">
           <h3 className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed">
             Team Members
           </h3>
           <div className="flex flex-wrap -mx-1 lg:-mx-4">
-            <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2">
+            <div className="my-1 w-fit md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2">
               <article className="overflow-hidden rounded-lg shadow-lg">
                 <Image
                   src="/assets/asknoot.jpg"
@@ -58,7 +58,7 @@ function Team() {
                 </p>
               </article>
             </div>
-            <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2">
+            <div className="my-1 px-1 w-fit md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2">
               <article className="overflow-hidden rounded-lg shadow-lg">
                 <Image
                   src="/assets/morningstvr_.png"
@@ -105,7 +105,7 @@ function Team() {
                 </p>
               </article>
             </div>
-            <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2">
+            <div className="my-1 px-1 w-fit md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2">
               <article className="overflow-hidden rounded-lg shadow-lg">
                 <Image
                   src="/assets/Abomennagettin1.png"
@@ -152,7 +152,7 @@ function Team() {
                 </p>
               </article>
             </div>
-            <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2">
+            <div className="my-1 px-1 w-fit md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2">
               <article className="overflow-hidden rounded-lg shadow-lg">
                 <Image
                   src="/assets/dexLexFT.png"

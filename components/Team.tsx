@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Team() {
   return (
@@ -10,7 +11,7 @@ function Team() {
             Team Members
           </h3>
           <div className="flex flex-wrap -mx-1 lg:-mx-4">
-            <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/4">
+            <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2">
               <article className="overflow-hidden rounded-lg shadow-lg">
                 <Image
                   src="/assets/asknoot.jpg"
@@ -20,21 +21,44 @@ function Team() {
                   height={383}
                 />
                 <header className="leading-tight p-2 md:p-4">
-                  <h1 className="text-lg">
-                    <a className="no-underline hover:underline text-black" href="https://twitter.com/asknoot" target="_blank" rel="noopener noreferrer">
-                      @asknoot
-                    </a>
+                  <h1 className="text-xl font-bold">
+                    asknoot
                   </h1>
-                  <p className="text-lg">
-                    Caleb#6080
-                  </p>
+                  <div className="content flex justify-center pt-4">
+                    <p>
+                      <a className="no-underline hover:underline text-black" href="https://twitter.com/asknoot" target="_blank" rel="noopener noreferrer">
+                        <Image
+                          src="/assets/twitter.svg"
+                          alt="twitter"
+                          quality={100}
+                          width={30}
+                          height={30}
+                        />
+                      </a>
+                    </p>
+                    <p className="text-lg pl-2">
+                      @asknoot
+                    </p>
+                    <p className="pl-6 pt-0.5">
+                      <Image
+                        src="/assets/discord.svg"
+                        alt="discord"
+                        quality={100}
+                        width={35}
+                        height={35}
+                      />
+                    </p>
+                    <p className="text-lg pl-2">
+                      Caleb#6080
+                    </p>
+                  </div>
                 </header>
                 <p className="p-2">
                   Founder of ScarfDAO, Advisor & Host of GhostKidDAO, and contributing to YORD WIKI as an Analyst
                 </p>
               </article>
             </div>
-            <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/4">
+            <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2">
               <article className="overflow-hidden rounded-lg shadow-lg">
                 <Image
                   src="/assets/morningstvr_.png"
@@ -44,21 +68,44 @@ function Team() {
                   height={383}
                 />
                 <header className="leading-tight p-2 md:p-4">
-                  <h1 className="text-lg">
-                    <a className="no-underline hover:underline text-black" href="https://twitter.com/morningstvr_" target="_blank" rel="noopener noreferrer">
-                      @morningstvr_
-                    </a>
+                  <h1 className="text-xl font-bold">
+                    morningstvr
                   </h1>
-                  <p className="text-lg">
-                    ✨morningstvr✨#0666
-                  </p>
+                  <div className="content flex justify-center pt-4">
+                    <p>
+                      <a className="no-underline hover:underline text-black" href="https://twitter.com/morningstvr_" target="_blank" rel="noopener noreferrer">
+                        <Image
+                          src="/assets/twitter.svg"
+                          alt="twitter"
+                          quality={100}
+                          width={30}
+                          height={30}
+                        />
+                      </a>
+                    </p>
+                    <p className="text-lg pl-2">
+                      @morningstvr_
+                    </p>
+                    <p className="pl-6 pt-0.5">
+                      <Image
+                        src="/assets/discord.svg"
+                        alt="discord"
+                        quality={100}
+                        width={35}
+                        height={35}
+                      />
+                    </p>
+                    <p className="text-lg pl-2">
+                      ✨morningstvr✨#0666
+                    </p>
+                  </div>
                 </header>
                 <p className="p-2">
                   Founder @planetofdeapes | co fndr @scarfdao | jpeg collector | horror fiend | Old account deleted at 1 billion 😦
                 </p>
               </article>
             </div>
-            <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/4">
+            <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2">
               <article className="overflow-hidden rounded-lg shadow-lg">
                 <Image
                   src="/assets/Abomennagettin1.png"
@@ -68,21 +115,44 @@ function Team() {
                   height={383}
                 />
                 <header className="leading-tight p-2 md:p-4">
-                  <h1 className="text-lg">
-                    <a className="no-underline hover:underline text-black" href="https://twitter.com/Abomennagettin1" target="_blank" rel="noopener noreferrer">
-                      @Abomennagettin1
-                    </a>
+                  <h1 className="text-xl font-bold">
+                    Abomennagettin1
                   </h1>
-                  <p className="text-lg">
-                    Papa Abomenna#9824
-                  </p>
+                  <div className="content flex justify-center pt-4">
+                    <p>
+                      <a className="no-underline hover:underline text-black" href="https://twitter.com/Abomennagettin1" target="_blank" rel="noopener noreferrer">
+                        <Image
+                          src="/assets/twitter.svg"
+                          alt="twitter"
+                          quality={100}
+                          width={30}
+                          height={30}
+                        />
+                      </a>
+                    </p>
+                    <p className="text-lg pl-2">
+                      @Abomennagettin1
+                    </p>
+                    <p className="pl-6 pt-0.5">
+                      <Image
+                        src="/assets/discord.svg"
+                        alt="discord"
+                        quality={100}
+                        width={35}
+                        height={35}
+                      />
+                    </p>
+                    <p className="text-lg pl-2">
+                      Papa Abomenna#9824
+                    </p>
+                  </div>
                 </header>
                 <p className="p-2">
-                  Experienced Collab Manager & Moderator with connections in +43 DAOs and projects! <br></br><br></br>
+                  Experienced Collab Manager & Moderator with connections in +43 DAOs and projects!
                 </p>
               </article>
             </div>
-            <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/4">
+            <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2">
               <article className="overflow-hidden rounded-lg shadow-lg">
                 <Image
                   src="/assets/dexLexFT.png"
@@ -92,14 +162,37 @@ function Team() {
                   height={383}
                 />
                 <header className="leading-tight p-2 md:p-4">
-                  <h1 className="text-lg">
-                    <a className="no-underline hover:underline text-black" href="https://twitter.com/dexLexFT" target="_blank" rel="noopener noreferrer">
-                      @dexLexFT
-                    </a>
+                  <h1 className="text-xl font-bold">
+                    dexLexFT
                   </h1>
-                  <p className="text-lg">
-                    dexLexFT#1016
-                  </p>
+                  <div className="content flex justify-center pt-4">
+                    <p>
+                      <a className="no-underline hover:underline text-black" href="https://twitter.com/dexLexFT" target="_blank" rel="noopener noreferrer">
+                        <Image
+                          src="/assets/twitter.svg"
+                          alt="twitter"
+                          quality={100}
+                          width={30}
+                          height={30}
+                        />
+                      </a>
+                    </p>
+                    <p className="text-lg pl-2">
+                      @dexLexFT
+                    </p>
+                    <p className="pl-6 pt-0.5">
+                      <Image
+                        src="/assets/discord.svg"
+                        alt="discord"
+                        quality={100}
+                        width={35}
+                        height={35}
+                      />
+                    </p>
+                    <p className="text-lg pl-2">
+                      dexLexFT#1016
+                    </p>
+                  </div>
                 </header>
                 <p className="p-2">
                   Full-time Filipino builder and part-time student. Experienced Community Builder, Manager, and Collaborator

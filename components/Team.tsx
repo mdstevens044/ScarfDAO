@@ -6,12 +6,12 @@ function Team() {
   return (
     <div className="bg-current from-white-300 to-white-500 w-screen py-14" id="team">
       <div className="px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-fit text-center justify-center">
-        <div className="flex flex-col w-screen">
+        <div className="flex flex-col w-full">
           <h3 className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed">
             Team Members
           </h3>
           <div className="flex flex-wrap -mx-1 lg:-mx-4">
-            <div className="my-1 w-fit md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2">
+            <div className="my-1 w-fit md:w-1/4 lg:my-4 lg:px-4 lg:w-1/4">
               <article className="overflow-hidden rounded-lg shadow-lg">
                 <Image
                   src="/assets/asknoot.jpg"
@@ -31,21 +31,23 @@ function Team() {
                           src="/assets/twitter.svg"
                           alt="twitter"
                           quality={100}
-                          width={30}
-                          height={30}
+                          width={25}
+                          height={25}
                         />
                       </a>
                     </p>
                     <p className="text-lg pl-2">
                       @asknoot
                     </p>
+                  </div>
+                  <div className="content flex justify-center pt-2">
                     <p className="pl-6 pt-0.5">
                       <Image
                         src="/assets/discord.svg"
                         alt="discord"
                         quality={100}
-                        width={35}
-                        height={35}
+                        width={30}
+                        height={30}
                       />
                     </p>
                     <p className="text-lg pl-2">
@@ -55,10 +57,11 @@ function Team() {
                 </header>
                 <p className="p-2">
                   Founder of ScarfDAO, Advisor & Host of GhostKidDAO, and contributing to YORD WIKI as an Analyst
+                  <br></br><br></br>
                 </p>
               </article>
             </div>
-            <div className="my-1 px-1 w-fit md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2">
+            <div className="my-1 px-1 w-fit md:w-1/4 lg:my-4 lg:px-4 lg:w-1/4">
               <article className="overflow-hidden rounded-lg shadow-lg">
                 <Image
                   src="/assets/morningstvr_.png"
@@ -78,21 +81,23 @@ function Team() {
                           src="/assets/twitter.svg"
                           alt="twitter"
                           quality={100}
-                          width={30}
-                          height={30}
+                          width={25}
+                          height={25}
                         />
                       </a>
                     </p>
                     <p className="text-lg pl-2">
                       @morningstvr_
                     </p>
+                  </div>
+                  <div className="content flex justify-center pt-2">
                     <p className="pl-6 pt-0.5">
                       <Image
                         src="/assets/discord.svg"
                         alt="discord"
                         quality={100}
-                        width={35}
-                        height={35}
+                        width={30}
+                        height={30}
                       />
                     </p>
                     <p className="text-lg pl-2">
@@ -105,7 +110,7 @@ function Team() {
                 </p>
               </article>
             </div>
-            <div className="my-1 px-1 w-fit md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2">
+            <div className="my-1 px-1 w-fit md:w-1/4 lg:my-4 lg:px-4 lg:w-1/4">
               <article className="overflow-hidden rounded-lg shadow-lg">
                 <Image
                   src="/assets/Abomennagettin1.png"
@@ -125,21 +130,23 @@ function Team() {
                           src="/assets/twitter.svg"
                           alt="twitter"
                           quality={100}
-                          width={30}
-                          height={30}
+                          width={25}
+                          height={25}
                         />
                       </a>
                     </p>
                     <p className="text-lg pl-2">
                       @Abomennagettin1
                     </p>
+                  </div>
+                  <div className="content flex justify-center pt-2">
                     <p className="pl-6 pt-0.5">
                       <Image
                         src="/assets/discord.svg"
                         alt="discord"
                         quality={100}
-                        width={35}
-                        height={35}
+                        width={30}
+                        height={30}
                       />
                     </p>
                     <p className="text-lg pl-2">
@@ -149,10 +156,11 @@ function Team() {
                 </header>
                 <p className="p-2">
                   Experienced Collab Manager & Moderator with connections in +43 DAOs and projects!
+                  <br></br><br></br>
                 </p>
               </article>
             </div>
-            <div className="my-1 px-1 w-fit md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2">
+            <div className="my-1 px-1 w-fit md:w-1/4 lg:my-4 lg:px-4 lg:w-1/4">
               <article className="overflow-hidden rounded-lg shadow-lg">
                 <Image
                   src="/assets/dexLexFT.png"
@@ -172,21 +180,23 @@ function Team() {
                           src="/assets/twitter.svg"
                           alt="twitter"
                           quality={100}
-                          width={30}
-                          height={30}
+                          width={25}
+                          height={25}
                         />
                       </a>
                     </p>
                     <p className="text-lg pl-2">
                       @dexLexFT
                     </p>
+                  </div>
+                  <div className="content flex justify-center pt-2">
                     <p className="pl-6 pt-0.5">
                       <Image
                         src="/assets/discord.svg"
                         alt="discord"
                         quality={100}
-                        width={35}
-                        height={35}
+                        width={30}
+                        height={30}
                       />
                     </p>
                     <p className="text-lg pl-2">

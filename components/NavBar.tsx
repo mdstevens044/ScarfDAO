@@ -4,7 +4,7 @@ function NavBar() {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <nav className="bg-white shadow">
+    <nav className="shadow">
       <div className="flex-1 pb-3 mt-4 pr-4 md:pr-8">
         <ul className="items-end justify-end">
           <li className="underline text-right text-black">

@@ -9,8 +9,8 @@ import Layout from "../components/Layout/Layout";
 export default function Home() {
   return (
     <>
+      <NavBar />
       <Layout>
-        <NavBar />
         <Hero />
         <About />
         <Services />

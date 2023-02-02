@@ -1,10 +1,8 @@
-import { useState } from "react";
+import React from "react";
 
 function NavBar() {
-  const [navbar, setNavbar] = useState(false);
-
   return (
-    <nav className="flex-1 pb-3 mt-4 pr-4 md:pr-8 text-right">
+    <nav className="flex-1 pb-3 mt-4 pr-4 md:pr-8 text-right shadow">
       <a className="underline text-black" href="https://asknoot.substack.com/"  target="_blank" rel="noopener noreferrer">Substack</a>
     </nav>
   );

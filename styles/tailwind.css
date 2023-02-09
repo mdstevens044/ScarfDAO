@@ -3,6 +3,9 @@
 @tailwind base;
 @tailwind components;
 
+html, body {
+  overflow-x: hidden;
+}
 html {
   font-family: "Rubik", sans-serif;
 }

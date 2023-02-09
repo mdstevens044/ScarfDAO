@@ -7,7 +7,7 @@ function Twitter() {
 
   if(isMobile)
   {
-    width = 450;
+    width = 350;
   }
 
   return (

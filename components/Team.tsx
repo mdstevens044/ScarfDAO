@@ -7,7 +7,7 @@ function Team() {
       <div className="px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-fit text-center justify-center">
         <div className="flex flex-col w-full">
           <h3 className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed">
-            Team Members
+            Contributors
           </h3>
           <div className="flex flex-wrap -mx-1 lg:-mx-4">
             <div className="my-1 w-fit md:w-1/4 lg:my-4 lg:px-4 lg:w-1/4">
@@ -205,6 +205,155 @@ function Team() {
                 </header>
                 <p className="p-2">
                   Full-time Filipino builder and part-time student. Experienced Community Builder, Manager, and Collaborator
+                </p>
+              </article>
+            </div>
+          </div>
+          <div className="flex flex-wrap -mx-1 lg:-mx-4">
+            <div className="my-1 w-fit md:w-1/4 lg:my-4 lg:px-4 lg:w-1/4">
+              <article className="overflow-hidden rounded-lg shadow-lg">
+                <Image
+                  src="/assets/aadyy.PNG"
+                  alt="aadyy"
+                  quality={100}
+                  width={612}
+                  height={383}
+                />
+                <header className="leading-tight p-2 md:p-4">
+                  <h1 className="text-xl font-bold">
+                  aadyy <br></br> Scarf Hunter
+                  </h1>
+                  <div className="content flex justify-center pt-4">
+                    <p>
+                      <a className="no-underline hover:underline text-black" href="https://twitter.com/aadyy_5IVE" target="_blank" rel="noopener noreferrer">
+                        <Image
+                          src="/assets/twitter.svg"
+                          alt="twitter"
+                          quality={100}
+                          width={25}
+                          height={25}
+                        />
+                      </a>
+                    </p>
+                    <p className="text-lg pl-2">
+                      @aadyy_5IVE
+                    </p>
+                  </div>
+                  <div className="content flex justify-center pt-2">
+                    <p className="pl-6 pt-0.5">
+                      <Image
+                        src="/assets/discord.svg"
+                        alt="discord"
+                        quality={100}
+                        width={30}
+                        height={30}
+                      />
+                    </p>
+                    <p className="text-lg pl-2">
+                      KAMI#2322
+                    </p>
+                  </div>
+                </header>
+                <p className="p-2">
+                  
+                </p>
+              </article>
+            </div>
+            <div className="my-1 px-1 w-fit md:w-1/4 lg:my-4 lg:px-4 lg:w-1/4">
+              <article className="overflow-hidden rounded-lg shadow-lg">
+                <Image
+                  src="/assets/SarigamiO.png"
+                  alt="SarigamiO"
+                  quality={100}
+                  width={612}
+                  height={383}
+                />
+                <header className="leading-tight p-2 md:p-4">
+                  <h1 className="text-xl font-bold">
+                    SarigamiO <br></br> Scarf Hunter
+                  </h1>
+                  <div className="content flex justify-center pt-4">
+                    <p>
+                      <a className="no-underline hover:underline text-black" href="https://twitter.com/SarigamiO" target="_blank" rel="noopener noreferrer">
+                        <Image
+                          src="/assets/twitter.svg"
+                          alt="twitter"
+                          quality={100}
+                          width={25}
+                          height={25}
+                        />
+                      </a>
+                    </p>
+                    <p className="text-lg pl-2">
+                      @SarigamiO
+                    </p>
+                  </div>
+                  <div className="content flex justify-center pt-2">
+                    <p className="pl-6 pt-0.5">
+                      <Image
+                        src="/assets/discord.svg"
+                        alt="discord"
+                        quality={100}
+                        width={30}
+                        height={30}
+                      />
+                    </p>
+                    <p className="text-lg pl-2">
+                      Sarigami#6825
+                    </p>
+                  </div>
+                </header>
+                <p className="p-2">
+
+                </p>
+              </article>
+            </div>
+            <div className="my-1 px-1 w-fit md:w-1/4 lg:my-4 lg:px-4 lg:w-1/4">
+              <article className="overflow-hidden rounded-lg shadow-lg">
+                <Image
+                  src="/assets/md.png"
+                  alt="md"
+                  quality={100}
+                  width={612}
+                  height={383}
+                />
+                <header className="leading-tight p-2 md:p-4">
+                  <h1 className="text-xl font-bold">
+                    md <br></br> Scarf Dev
+                  </h1>
+                  <div className="content flex justify-center pt-4">
+                    <p>
+                      <a className="no-underline hover:underline text-black" href="https://twitter.com/mdstevens044" target="_blank" rel="noopener noreferrer">
+                        <Image
+                          src="/assets/twitter.svg"
+                          alt="twitter"
+                          quality={100}
+                          width={25}
+                          height={25}
+                        />
+                      </a>
+                    </p>
+                    <p className="text-lg pl-2">
+                      @mdstevens044
+                    </p>
+                  </div>
+                  <div className="content flex justify-center pt-2">
+                    <p className="pl-6 pt-0.5">
+                      <Image
+                        src="/assets/discord.svg"
+                        alt="discord"
+                        quality={100}
+                        width={30}
+                        height={30}
+                      />
+                    </p>
+                    <p className="text-lg pl-2">
+                      mdstevens044#6838
+                    </p>
+                  </div>
+                </header>
+                <p className="p-2">
+
                 </p>
               </article>
             </div>

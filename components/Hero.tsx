@@ -10,7 +10,7 @@ function Hero() {
             <strong>ScarfDAO</strong>
           </h1>
           <p className="text-black-500 mt-4 mb-6">
-            ScarfDAO offers many services to help your project succeed.
+            Building together. Art. Content. Education.
           </p>
         </div>
         <div className="flex w-full">

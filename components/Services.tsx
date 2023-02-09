@@ -24,7 +24,7 @@ function Services() {
           </p>
           <br></br>
           <div className="wrapper">
-            <p className="text-center font-bold text-xl">Offered Services</p>
+            <p className="text-center font-bold text-xl">Services</p>
             <ul>
               <li>Marketing Services</li>
               <li>Graphic Design &amp; Art</li>

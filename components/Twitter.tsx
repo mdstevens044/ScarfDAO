@@ -1,8 +1,15 @@
 import React from "react";
-import { TwitterTimelineEmbed, TwitterFollowButton } from 'react-twitter-embed';
 import { Timeline } from 'react-twitter-widgets';
+import { isMobile } from 'react-device-detect';
 
 function Twitter() {
+  let width = 600;
+
+  if(isMobile)
+  {
+    width = 450;
+  }
+
   return (
     <div className="bg-current from-white-300 to-white-500 w-full py-14" id="tweets">
       <div className="px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-fit text-center justify-center">
@@ -13,8 +20,8 @@ function Twitter() {
               screenName: 'ScarfDAO'
             }}
             options={{
-              height: '650',
-              width: '600',
+              height: '700',
+              width: `${width}`,
               tweetLimit: '8',
               chrome: 'noscrollbar, nofooter',
               ariaPolite: 'assertive'

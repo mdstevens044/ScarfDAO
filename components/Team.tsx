@@ -105,7 +105,7 @@ function Team() {
                   </div>
                 </header>
                 <p className="p-2">
-                  Founder @planetofdeapes | co fndr @scarfdao | jpeg collector | horror fiend | Old account deleted at 1 billion 😦
+                  Fndr @planetofdeapes | Co Fndr @scarfdao | Artist
                 </p>
               </article>
             </div>
